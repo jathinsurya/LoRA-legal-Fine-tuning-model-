@@ -1,0 +1,24 @@
+# Core training dependencies
+unsloth
+unsloth_zoo
+bitsandbytes
+
+# HuggingFace ecosystem
+transformers
+datasets
+trl
+peft
+accelerate
+safetensors
+huggingface_hub
+tokenizers
+
+# PyTorch (install separately with CUDA support as needed)
+# torch>=2.4.0  # See https://pytorch.org/get-started/locally/ for CUDA-specific installs
+
+# Utilities
+numpy
+pandas
+tqdm
+sentencepiece
+protobuf

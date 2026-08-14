@@ -1,0 +1,38 @@
+# Model weights and adapters (large files — use Git LFS or HuggingFace Hub instead)
+legal_lora_model/
+legal_outputs/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Dataset files
+*.jsonl
+*.json
+*.csv
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+runs/
+wandb/
